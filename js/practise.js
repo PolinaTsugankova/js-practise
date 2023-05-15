@@ -1,40 +1,18 @@
-// const isComing = confirm("Please confirm hotel reservation");
-// console.log(isComing);
+// const date = new Date();
+// console.log(date);
 
-// const hotelName = prompt("Please enter desired hotel name");
-// console.log(hotelName);
+// const date = new Date();
+// console.log(date.getTime()); // 1624021654154
 
-// let number = prompt("Write bebra`s name");
-// number = Number(number);
-// console.log(number);
-// console.log(typeof number);
+// const array = [0, 1, 2, 3, 4];
 
-// let height = "25.9px";
-// height = Number.parseFloat(height);
+// const max = 0;
 
-// console.log(height);
-// console.log(typeof height);
+// array.reduce((prevValue, num) => {
+//    if (prevValue > num) {
+//       prevValue = max;
+//       return max;
+//    }
+// }, 0);
 
-// let salary = 10.72382932;
-// salary = Number(salary.toFixed(1));
-
-// console.log(salary);
-// console.log(typeof salary);
-
-// const message = "JavaScript is awesome!";
-// alert(message);
-
-// const base = 300;
-// const quantity = prompt("Введіть суму виручки");
-// const persent = quantity * 0.02;
-// const result = base + persent;
-
-// const message = confirm("result");
-
-// const message = "Welcome to Bahamas!";
-// console.log(message.indexOf("to"));
-// console.log(message.indexOf("hello"));
-
-for (let i = 50; i >= 0; i -= 5) {
-   console.log(i);
-}
+// console.log(max);
